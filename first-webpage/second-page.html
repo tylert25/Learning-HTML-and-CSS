@@ -15,6 +15,7 @@
     <hr />
     <h4>My Schedule</h4>
     <table>
+        <thead>
         <tr>
             <th></th>
             <th>9am</th>
@@ -22,6 +23,8 @@
             <th>11am</th>
             <th>12am</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
             <th>Monday</th>
             <td colspan="2">Code</td>
@@ -33,5 +36,72 @@
             <td colspan="3">HW</td>
             <td>lunch</td>
         </tr>
+    </tbody>
     </table>
+    <body>
+        <hr />
+        <h3>Cool Forms:</h3>
+        <form action="" method="post">
+            <p>
+                Username:
+                <input type="text" name="username" maxlength="30" /> </p>
+            <p> Password:
+                <input type="password" name="pass" maxlength="30" /> </p>
+        </form>
+        <form action="">
+            <p><br />What are your thoughts?</p>
+            <textarea name="comments" id="comments">Enter your comments...</textarea>
+        </form>
+        <form action="">
+            <p><br />Please select your favorite genre:
+                <br />
+                <input type="radio" name="genre" value="rock" checked="checked"> Rock
+                <input type="radio" name="genre" value="pop" > Pop
+                <input type="radio" name="genre" value="jazz"> jazz
+            </p>
+        </form>
+        <form action="">
+            <p>
+                <br />
+                Please select your favorite food(s):
+                <br />
+                <input type="checkbox" name="service" value="pizza"> Pizza
+                <input type="checkbox" name="service" value="pasta"> Pasta
+                <input type="checkbox" name="service" value="chicken"> Chicken
+            </p>
+        </form>
+        <form action="">
+            <p>
+                <br />
+                What is your favorite dish?
+                <br />
+                <select name="dishes">
+                    <option value="tacos">Tacos</option>
+                    <option value="burritos">Burritos</option>
+                    <option value="nachos">Nachos</option>
+                </select>
+            </p>
+        </form>
+        <form action="">
+            <p>
+                <br />
+                Upload an image:
+                <br />
+                <input type="file" name="user-image"><br />
+                <input type="submit" value="Upload"><br />
+            </p>
+        </form>
+        <fieldset>
+            <legend>Contact details</legend>
+            <label for="email">Email: <br />
+                <input type="text" name="email" required="required" placeholder="Enter Email NOW">
+            </label><br />
+            <label for="mobile">Mobile: <br />
+                <input type="text" name="mobile" >
+            </label><br />
+            <label for="tele">Telephone: <br />
+                <input type="text" name="tele" >
+            </label>
+        </fieldset>
+    </body>
 </html>
