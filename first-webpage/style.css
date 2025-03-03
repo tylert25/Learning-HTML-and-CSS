@@ -1,0 +1,23 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: rgb(235, 251, 255);
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+.t1 {
+    background-color: aliceblue;
+    margin: 20px 10px;
+    display: block;
+    width: 1000px;
+    border: 2px solid;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
