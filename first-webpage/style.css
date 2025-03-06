@@ -37,3 +37,42 @@ h1 {
     align-items: center;
     flex-direction: column;
 }
+
+.titleofthirdpage {
+    text-align: center;
+}
+
+.links3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.card {
+    background: #ffbcbc;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.coolgrid {
+    padding: 40px 0;
+}
+
+.coolgrid-heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
