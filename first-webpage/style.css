@@ -59,9 +59,11 @@ h1 {
 .contactinner {
     margin-left: 10px;
     margin-bottom: 10px;
+<<<<<<< Updated upstream
 }
 
 .titleofthirdpage {
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -76,7 +78,7 @@ h1 {
     background: #ffbcbc;
     color: black;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 .coolgrid {
@@ -123,4 +125,6 @@ li {
 
 .btn:hover {
     opacity: 0.8;
+=======
+>>>>>>> Stashed changes
 }
